@@ -42,11 +42,11 @@ This project was built with:
 ## 🛠 The Team
 
 ### Developers
-- [Joshua Lin](https://github.com/hansontram) 🧙🏻‍♂️  
-- [Diana Melendez](https://github.com/VVSteven) 🤠
-- [Gaby Perez](https://github.com/0zoneGG) 🥳
-- [Sebastian Acosta](https://github.com/0zoneGG) 🫠
-- [Hanson Tram](https://github.com/0zoneGG) 😎
+- [Joshua Lin]() 🧙🏻‍♂️  
+- [Diana Melendez]() 🤠
+- [Gaby Perez]() 🥳
+- [Sebastian Acosta]() 🫠
+- [Hanson Tram](https://github.com/hansontram) 😎
 
 
 
