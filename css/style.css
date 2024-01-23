@@ -47,11 +47,6 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
 align-content: center;
-
-}
-
-.buy-button {
-    margin-left: 25%;
 }
 
 .product-img {

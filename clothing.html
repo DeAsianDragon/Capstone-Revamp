@@ -3,129 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothing | MagikXpress </title>
+    <title>Clothing | MagikXpress</title>
 
+    <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5b3c072672.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css"> 
 
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="home.html">
-            <img src="images/logo.png" alt="MXlogo" width="65px">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="home.html">Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categories</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item active" href="clothing.html">Clothing</a>
-                  <a class="dropdown-item" href="rings.html">Rings</a>
-                  <a class="dropdown-item" href="wands.html">Wands</a>
-                  <a class="dropdown-item" href="misc.html">Misc</a>
-                </div>
-              </li>
-          </div>
-          <div>
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#checkout.html#">Cart</a>
-              </li>
-            </ul>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">
+          <img src="images/logo.png" alt="MXlogo" width="65px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categories</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item active" href="clothing.html">Clothing</a>
+                <a class="dropdown-item" href="rings.html">Rings</a>
+                <a class="dropdown-item" href="wands.html">Wands</a>
+                <a class="dropdown-item" href="misc.html">Misc</a>
+              </div>
+            </li>
         </div>
-      </nav>
+        <div>
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#checkout.html#">Cart</a>
+            </li>
+          </ul>
+      </div>
+  </nav>
 
   <Header>Clothing</Header>
 
 
-  <main class="product-container row">
+  <main class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="images/clothing/Boots of Speed.jpeg" alt="Speed"/>
+          <div class="card-body text-center border-top border-dark">
+            <h3 class="card-title">Boots of Speed</h3>
+            <span class="price"><i class="fa-solid fa-coins me-2"></i>60 Gold</span>
+            <p class="card-text">Doubles your movement speed!</p> 
+            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="images/clothing/Boots of Springing.jpeg" alt="Spring Boots"/>
+          <div class="card-body text-center border-top border-dark">
+            <h3 class="card-title">Boots of Springing</h3>
+            <span class="price"><i class="fa-solid fa-coins me-2"></i>40 Gold</span> 
+            <p class="card-text">Triples your jump height!</p>
+            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+          </div>
+        </div>
+      </div>
 
-    <div class="product-card">
-      <div>
-        <img class="product-img" src="images/clothing/Boots of Speed.jpeg" alt="Speed"/>
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="images/clothing/Cloak of Manta Ray.jpeg" alt="Manta Cloak"/>
+          <div class="card-body text-center border-top border-dark">
+            <h3 class="card-title">Cloak of Manta Ray</h3>
+            <span class="price"><i class="fa-solid fa-coins me-2"></i>60 Gold</span>
+            <p class="card-text">Breathe underwater, swim ever gracefully!</p> 
+            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+          </div>
+        </div>
       </div>
-      <div class="product-content">
-        <h3>Boots of Speed</h3>
-        <span class="price">60 Gold</span> 
-          <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
-        <br>
-        Doubles your movment speed!
+      
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="images/clothing/Robe of Stars.jpeg" alt="Star Robe"/>
+          <div class="card-body text-center border-top border-dark">
+            <h3 class="card-title">Robe of Stars</h3>
+            <span class="price"><i class="fa-solid fa-coins me-2"></i>80 gold</span>
+            <p class="card-text">Teleport short distances while leaving a ghostly afterimage!</p>
+            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="product-card">
-      <div>
-        <img class="product-img" src="images/clothing/Boots of Springing.jpeg" alt="Spring Boots"/>
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="images/clothing/Slippers of Spider.jpeg" alt="Spider Sliper"/>
+          <div class="card-body text-center border-top border-dark">
+            <h3 class="card-title">Slippers of Spiderwalk</h3>
+            <span class="price"><i class="fa-solid fa-coins me-2"></i>70 gold</span>
+            <p class="card-text">Walk on walls and ceilings with ease!</p>
+            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+          </div>
+        </div>
       </div>
-      <div class="product-content">
-        <h3>Boots of Springing</h3>
-        <span class="price">40 Gold</span> 
-        <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
-        <br>
-        Triples your jump height
-      </div>
-    </div>
-
-    <div class="product-card">
-      <div>
-        <img class="product-img" src="images/clothing/Cloak of Manta Ray.jpeg" alt="Manta Cloak"/>
-      </div>
-      <div class="product-content">
-        <h3>Cloak of Manta Ray</h3>
-        <span class="price">60 Gold</span> 
-        <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
-        <br>
-        Breath underwater! And swim so gracefully
-      </div>
-    </div>
-
-    <div class="product-card">
-      <div>
-        <img class="product-img" src="images/clothing/Robe of Stars.jpeg" alt="Star Robe"/>
-      </div>
-      <div class="product-content">
-        <h3>Robe of Stars</h3>
-        <span class="price">80 gold</span> 
-        <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
-        <br>
-        Teleport short distances while leaving a ghostly after image
-      </div>
-    </div>
-
-    <div class="product-card">
-      <div>
-        <img class="product-img" src="images/clothing/Slippers of Spider.jpeg" alt="Spider Sliper"/>
-      </div>
-      <div class="product-content">
-        <h3>Slippers of Spiderwalk</h3>
-        <span class="price">$</span> 
-        <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
-        <br>
-        Walk on walls and ceilings with ease
-      </div>
+      
     </div>
 
     <div id="myModal" class="modal">
-      
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -144,70 +144,70 @@
       </div>
 
     </div>
+  </main>
 
 
 
+  <footer class="mt-5">
+    <div class="d-flex justify-content-center">
+      <ul>
+        <li>
+          <a href="#"
+            ><img
+              src="images/social/instagram.png"
+              alt="instagram"/>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/social/facebook.png" alt="facebook"/>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/social/pinterest.png" alt="pinterest"/>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-      <footer>
-        <div>
-          <ul>
-            <li>
-              <a href="#"
-                ><img
-                  src="images/social/instagram.png"
-                  alt="instagram"/>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="images/social/facebook.png" alt="facebook"/>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="images/social/pinterest.png" alt="pinterest"/>
-              </a>
-            </li>
-          </ul>
-        </div>
-    
-        <div>
-          <section>
-            <header>Customer Service</header>
-            <p>M—F 9am to 5pm <br>
-              Saturday and Sunday by appointment <br>
-              Email: <a href="#">topshelf@wizardtower.com</a>
-              <br>
-              Phone Number: <a href="#">(602)-555-1234<a>
-            </p>
-          </section>
-    
-          <section>
-            <header>News</header>
-            <p>
-              <a href="#">Newsletter</a>
-              <a href="#">Events</a> <br>
-              <a href="#">Upcomming Items</a> <br>
-              <a href="#">Fourms</a> <br>
-            </p>
-          </section>
-    
-          <section>
-            <header>Info</header>
-            <p>
-              <a href="#">Policies</a> <br>
-              <a href="#">FAQs</a> <br>
-              <a href="#">Aquistion Info</a> <br>
-              <a href="#">Career</a> <br>
-            </p>
-          </section>
-    
-        </div>
-      </footer>
+    <div>
+      <section>
+        <header>Customer Service</header>
+        <p>M—F 9am to 5pm <br>
+          Saturday and Sunday by appointment <br>
+          Email: <a href="#">topshelf@wizardtower.com</a>
+          <br>
+          Phone Number: <a href="#">(602)-555-1234<a>
+        </p>
+      </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <section>
+        <header>News</header>
+        <p>
+          <a href="#">Newsletter</a>
+          <a href="#">Events</a> <br>
+          <a href="#">Upcomming Items</a> <br>
+          <a href="#">Fourms</a> <br>
+        </p>
+      </section>
 
-    <script src="Java/java.js"></script>
+      <section>
+        <header>Info</header>
+        <p>
+          <a href="#">Policies</a> <br>
+          <a href="#">FAQs</a> <br>
+          <a href="#">Aquistion Info</a> <br>
+          <a href="#">Career</a> <br>
+        </p>
+      </section>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <script src="Java/java.js"></script>
 
 </body>
 </html>
