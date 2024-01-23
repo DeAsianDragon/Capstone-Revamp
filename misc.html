@@ -5,185 +5,172 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Misc | MagikXpress</title>
 
+    <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css"> 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5b3c072672.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="home.html">
-            <img src="images/logo.png" alt="MXlogo" width="65px">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="home.html">Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categories</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="clothing.html">Clothing</a>
-                  <a class="dropdown-item" href="rings.html">Rings</a>
-                  <a class="dropdown-item" href="wands.html">Wands</a>
-                  <a class="dropdown-item active" href="misc.html">Misc</a>
-                </div>
-              </li>
-          </div>
-          <div>
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#checkout.html#">Cart</a>
-              </li>
-            </ul>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">
+          <img src="images/logo.png" alt="MXlogo" width="65px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categories</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="clothing.html">Clothing</a>
+                <a class="dropdown-item" href="rings.html">Rings</a>
+                <a class="dropdown-item" href="wands.html">Wands</a>
+                <a class="dropdown-item active" href="misc.html">Misc</a>
+              </div>
+            </li>
         </div>
-      </nav>
-  <header>Misc</header>
-
-  <main class="product-container row">
-
-    <div class="product-card">
-      <div>
-        <img class="product-img" src="images/misc/Bag of Holding.jpeg" alt="#"/>
-      </div>
-      <div class="product-content">
-        <h3>Bag of Holding</h3>
-        <span class="price">13 Gold</span> 
-          <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
-        <br>
-        500 pounds and 64 cubic feet worth of stuff <br>
-        will still always weigh 15 pounds
-      </div>
-    </div>
-
-    <div class="product-card">
-      <div>
-        <img class="product-img" src="images/misc/Boundless Coffee.jpg" alt="#"/>
-      </div>
-      <div class="product-content">
-        <h3>Bottle of Boundless Coffee</h3>
-        <span class="price">135 Gold</span> 
-        <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
-        <br>
-        Empty bottle refills with hot black coffee every sunrise
-      </div>
-    </div>
-
-    <div class="product-card">
-      <div>
-        <img class="product-img" src="images/misc/Eversmoking Bottle.jpeg" alt="#"/>
-      </div>
-      <div class="product-content">
-        <h3>Eversmoking Bottle</h3>
-        <span class="price">$</span> 
-        <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
-        <br>
-        Create a 60-foot radius smoke screen in a second
-      </div>
-    </div>
-
-    <div class="product-card">
-      <div>
-        <img class="product-img" src="images/misc/Orb of Direction.jpeg" alt="#"/>
-      </div>
-      <div class="product-content">
-        <h3>Orb of Direction</h3>
-        <span class="price">$</span> 
-        <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
-        <br>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-      </div>
-    </div>
-
-    <div class="product-card">
-      <div>
-        <img class="product-img" src="images/misc/Pipe of Smoke Monsters.jpeg" alt="#"/>
-      </div>
-      <div class="product-content">
-        <h3>Pipe of Smoke Monster</h3>
-        <span class="price">$</span> 
-        <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
-        <br>
-        Great at parties
-      </div>
-    </div>
-    
-
-
-
-
-      <footer>
         <div>
-          <ul>
-            <li>
-              <a href="#"
-                ><img
-                  src="images/social/instagram.png"
-                  alt="instagram"/>
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
               </a>
             </li>
-            <li>
-              <a href="#">
-                <img src="images/social/facebook.png" alt="facebook"/>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
             </li>
-            <li>
-              <a href="#">
-                <img src="images/social/pinterest.png" alt="pinterest"/>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#checkout.html#">Cart</a>
             </li>
           </ul>
-        </div>
-    
-        <div>
-          <section>
-            <header>Customer Service</header>
-            <p>M—F 9am to 5pm <br>
-              Saturday and Sunday by appointment <br>
-              Email: <a href="#">topshelf@wizardtower.com</a>
-              <br>
-              Phone Number: <a href="#">(602)-555-1234<a>
-            </p>
-          </section>
-    
-          <section>
-            <header>News</header>
-            <p>
-              <a href="#">Newsletter</a>
-              <a href="#">Events</a> <br>
-              <a href="#">Upcomming Items</a> <br>
-              <a href="#">Fourms</a> <br>
-            </p>
-          </section>
-    
-          <section>
-            <header>Info</header>
-            <p>
-              <a href="#">Policies</a> <br>
-              <a href="#">FAQs</a> <br>
-              <a href="#">Aquistion Info</a> <br>
-              <a href="#">Career</a> <br>
-            </p>
-          </section>
-    
-        </div>
-      </footer>
+      </div>
+  </nav>
+  
+  <header>Misc</header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="Java/java.js"></script>
-  </body>
+  <main class="container">
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="images/misc/Bag of Holding.jpeg" alt="Magic bag of holding"/>
+        <div class="card-body text-center border-top border-dark">
+          <h3 class="card-title">Bag of Holding</h3>
+          <span class="price"><i class="fa-solid fa-coins me-2"></i>50 Gold</span>
+          <p class="card-text">Holds up to 500 pounds, will still always weigh only 15 pounds</p>
+          <div class="card-footer">
+            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="images/misc/Pipe of Smoke Monsters.jpeg" alt="Pipe of smoke monsters"/>
+        <div class="card-body text-center border-top border-dark">
+          <h3 class="card-title">Pipe of Smoke Monsters</h3>
+          <span class="price"><i class="fa-solid fa-coins me-2"></i>110 Gold</span>
+          <p class="card-text">Conjure ghastly entities with every puff!</p>
+          <div class="card-footer">
+            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="images/misc/Eversmoking Bottle.jpeg" alt="#"/>
+        <div class="card-body text-center border-top border-dark">
+          <h3 class="card-title">Eversmoking Bottle</h3>
+          <span class="price"><i class="fa-solid fa-coins me-2"></i>$</span>
+          <p class="card-text">Create a 60-foot radius smoke screen instantaneously!</p>
+          <div class="card-footer">
+            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="images/misc/Orb of Direction.jpeg" alt="Guiding orb"/>
+        <div class="card-body text-center border-top border-dark">
+          <h3 class="card-title">Orb of Direction</h3>
+          <span class="price"><i class="fa-solid fa-coins me-2"></i>$</span>
+          <p class="card-text">Upon release from your right palm, this orb will guide you on any quest!</p>
+          <div class="card-footer">
+            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="mt-5">
+    <div class="d-flex justify-content-center">
+      <ul>
+        <li>
+          <a href="#"
+            ><img
+              src="images/social/instagram.png"
+              alt="instagram"/>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/social/facebook.png" alt="facebook"/>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/social/pinterest.png" alt="pinterest"/>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <section>
+        <header>Customer Service</header>
+        <p>M—F 9am to 5pm <br>
+          Saturday and Sunday by appointment <br>
+          Email: <a href="#">topshelf@wizardtower.com</a>
+          <br>
+          Phone Number: <a href="#">(602)-555-1234<a>
+        </p>
+      </section>
+
+      <section>
+        <header>News</header>
+        <p>
+          <a href="#">Newsletter</a>
+          <a href="#">Events</a> <br>
+          <a href="#">Upcomming Items</a> <br>
+          <a href="#">Fourms</a> <br>
+        </p>
+      </section>
+
+      <section>
+        <header>Info</header>
+        <p>
+          <a href="#">Policies</a> <br>
+          <a href="#">FAQs</a> <br>
+          <a href="#">Aquistion Info</a> <br>
+          <a href="#">Career</a> <br>
+        </p>
+      </section>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="Java/java.js"></script>
+</body>
 </html>
