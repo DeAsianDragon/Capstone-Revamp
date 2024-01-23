@@ -9,7 +9,6 @@ body {
     margin: 0;
 }
 
-
 .scorll {
     background-color: bisque;
 }
@@ -22,7 +21,7 @@ body p.home {
 
 header {
     text-align: center;
-    font-size: 90px;
+    font-size: 100px;
 }
 
 .shelf {
@@ -32,6 +31,16 @@ header {
     margin-bottom: 40px;
 }
 
+/* Shop Live Background */
+#liveBackground {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    z-index: -1;
+}
 
 /*Card*/
 .price {
