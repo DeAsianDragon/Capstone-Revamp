@@ -42,7 +42,7 @@ This project was built with:
 ## 🛠 The Team
 
 ### Developers
-- [Joshua Lin]() 🧙🏻‍♂️  
+- [Joshua Lin](https://github.com/DeAsianDragon) 🧙🏻‍♂️  
 - [Diana Melendez]() 🤠
 - [Gaby Perez]() 🥳
 - [Sebastian Acosta]() 🫠
