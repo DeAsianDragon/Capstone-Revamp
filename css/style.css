@@ -1,5 +1,4 @@
 /*General Stuff*/
-
 nav {
     font-size: 27px
 }
@@ -32,15 +31,30 @@ header {
 }
 
 /* Shop Live Background */
-#liveBackground {
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vw;
-    position: fixed;
-    z-index: -1;
+@media only screen and (max-width: 768px) {
+    #liveBackground {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: -1;
+    }
 }
+    /* If the window is 768 px or larger */
+@media only screen and (min-width: 768px) {
+    #liveBackground {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        position: fixed;
+        z-index: -1;
+    }
+} 
+
 
 /*Card*/
 .price {
@@ -143,7 +157,7 @@ div a {
     text-decoration: none;
 }
 
-.forgotpsd p {
+.forgotpsd p{
     font-size: 10px;
 }
 

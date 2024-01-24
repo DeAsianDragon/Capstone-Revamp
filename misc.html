@@ -75,7 +75,7 @@
           <span class="price"><i class="fa-solid fa-coins me-2"></i>50 Gold</span>
           <p class="card-text">Holds up to 500 pounds, will still always weigh only 15 pounds!</p>
           <div class="card-footer">
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
           <span class="price"><i class="fa-solid fa-coins me-2"></i>110 Gold</span>
           <p class="card-text">Conjure ghastly entities with every puff!</p>
           <div class="card-footer">
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@
           <span class="price"><i class="fa-solid fa-coins me-2"></i>65 Gold</span>
           <p class="card-text">Create a 60-foot radius smoke screen instantaneously!</p>
           <div class="card-footer">
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@
           <span class="price"><i class="fa-solid fa-coins me-2"></i>75 Gold</span>
           <p class="card-text">Upon release from your right palm, this orb will guide you on any quest!</p>
           <div class="card-footer">
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -123,14 +123,14 @@
           <div class="modal-header">
             <h3 class="modal-title">Magic Item Acquired!</h3>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true"></span>
+              <span id="closeSpan" aria-hidden="true"></span>
             </button>
           </div>
           <div class="modal-body">
             <p>Product added to cart</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
+            <button type="button" id="closeBtn" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
