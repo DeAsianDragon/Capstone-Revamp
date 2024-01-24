@@ -75,7 +75,7 @@
             <h3 class="card-title">Boots of Speed</h3>
             <span class="price"><i class="fa-solid fa-coins me-2"></i>60 Gold</span>
             <p class="card-text">Doubles your movement speed!</p>
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
             <h3 class="card-title">Boots of Springing</h3>
             <span class="price"><i class="fa-solid fa-coins me-2"></i>40 Gold</span> 
             <p class="card-text">Triples your jump height!</p>
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@
             <h3 class="card-title">Cloak of Manta Ray</h3>
             <span class="price"><i class="fa-solid fa-coins me-2"></i>60 Gold</span>
             <p class="card-text">Breathe underwater, swim ever gracefully!</p> 
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@
             <h3 class="card-title">Robe of Stars</h3>
             <span class="price"><i class="fa-solid fa-coins me-2"></i>80 Gold</span>
             <p class="card-text">Teleport short distances while leaving a ghostly afterimage!</p>
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@
             <h3 class="card-title">Slippers of Spiderwalk</h3>
             <span class="price"><i class="fa-solid fa-coins me-2"></i>70 Gold</span>
             <p class="card-text">Walk on walls and ceilings with ease!</p>
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@
             <h3 class="card-title">Cloak of Flight</h3>
             <span class="price"><i class="fa-solid fa-coins me-2"></i>100 Gold</span>
             <p class="card-text">Don this cloak and obtain flight!</p>
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -148,14 +148,14 @@
           <div class="modal-header">
             <h3 class="modal-title">Magic Item Acquired!</h3>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true"></span>
+              <span id="closeSpan" aria-hidden="true"></span>
             </button>
           </div>
           <div class="modal-body">
             <p>Product added to cart</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
+            <button type="button" id="closeBtn" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>

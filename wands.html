@@ -75,7 +75,7 @@
           <span class="price"><i class="fa-solid fa-coins me-2"></i>10 Gold</span>
           <p class="card-text">Find sources of magic easily!</p>
           <div class="card-footer">
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
           <span class="price"><i class="fa-solid fa-coins me-2"></i>30 Gold</span>
           <p class="card-text">Create large area of sticky webs!</p> 
           <div class="card-footer">
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div> 
         </div>
       </div>
@@ -100,7 +100,7 @@
           <p class="card-text">Point and cast a fireball up to 20 ft in radius, easy as that!</p>
           <p class="card-text"><small>Range: 120 ft.</small></p>
           <div class="card-footer">
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div> 
         </div>
       </div>
@@ -112,30 +112,29 @@
           <span class="price">50 Gold</span> 
           <p class="card-text">Whip and point, a shocking bolt of lightning!</p>
           <div class="card-footer">
-            <button type="button" id="myBtn" class="btn btn-primary buy-button" data-toggle="modal">Add to Cart</button>
+            <button type="button" class="btn btn-primary buy-button myBtn" data-toggle="modal">Add to Cart</button>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="myModal" class="modal">    
+    <div id="myModal" class="modal">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h3 class="modal-title">Magic Item Got!</h3>
+            <h3 class="modal-title">Magic Item Acquired!</h3>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true"></span>
+              <span id="closeSpan" aria-hidden="true"></span>
             </button>
           </div>
           <div class="modal-body">
             <p>Product added to cart</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
+            <button type="button" id="closeBtn" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-
     </div>
   </main>
 
