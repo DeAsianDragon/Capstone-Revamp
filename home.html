@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MagikXpress Home</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rb5uWESZ5nM5uPqW0I5F8AU/Z5Qj/E3vKBRnQ9OsojzK6cQlggIVDaFExfFqDShj" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jZ5" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css"> 
+
 </head>
 <body>
 
@@ -66,7 +68,61 @@
   </div>
 
   <img class="shelf" src="images/magic-shelf.jpg" alt="bg" width="550" height="700">
+
+  <hr>
+
+  <h1>Featured</h1>
+
+  <div class="container">
+    <div class="card mx-auto mt-4" style="width: 50%;">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-keyboard="true" data-bs-pause="hover">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+       </ol>
   
+        <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/carousel/rations.jpg" class="d-block w-100" alt="Rations">
+        <div class="carousel-caption">
+          <h3>Coming Soon</h3>
+          <p>We are working on providing adventuring rations</p>
+        </div>
+      </div>
+  
+      <div class="carousel-item">
+        <img src="images/carousel/inventory.jpg" class="d-block w-100" alt="Inventory">
+        <div class="carousel-caption">
+          <h3>International Warehouses</h3>
+          <p>Our inventory can be found across the map, get your items delivered quickly</p>
+        </div>
+      </div>
+  
+      <div class="carousel-item">
+        <img src="images/carousel/wands.jpg" class="d-block w-100" alt="Wands">
+        <div class="carousel-caption">
+          <h3>Artisan Wands</h3>
+          <p>Finely crafted wands, guarantee quality casting</p>
+        </div>
+      </div>
+      </div>
+  
+        <!-- Left and right controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <footer>
     <div>
       <ul>
@@ -121,7 +177,6 @@
 
     </div>
   </footer>
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
